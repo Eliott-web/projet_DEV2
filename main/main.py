@@ -1,4 +1,4 @@
-from plateau.plateau_utils import makePlateau
+from plateau.plateau_utils import *
 
 print("hello world")
 print("test")
@@ -6,4 +6,5 @@ print("test")
 print("slt")
 
 plat = makePlateau()
+plat.addPath(makePath())
 print(plat)
